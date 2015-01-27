@@ -76,5 +76,5 @@ From the JBoss Fuse console, enter the following to create the necessary contain
 ```
 JBossFuse:karaf@root> fabric:mq-create --parent-profile mq-base --group default --kind StandAlone --minimumInstances 1 --create-container mq mq1
 JBossFuse:karaf@root> fabric:container-create-child --profile rsproxy-backend root be 2
-JBossFuse:karaf@root> fabric:container-create-child --profile rsproxy-frontend root fe1 1
+JBossFuse:karaf@root> fabric:container-create-child --profile rsproxy-frontend root fe 1
 ```
