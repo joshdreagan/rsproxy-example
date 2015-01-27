@@ -12,7 +12,6 @@
 $ cd <POC_HOME>
 $ mvn clean install
 ```
-```
 
 ## Running the example (standalone)
 
